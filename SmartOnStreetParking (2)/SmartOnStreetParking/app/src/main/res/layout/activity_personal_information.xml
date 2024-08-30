@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalInformationActivity"
+    android:background="#E8F5E9">
+
+    <TextView
+        android:id="@+id/name_surname_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name - Surname:"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/name_surname_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_surname_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="10dp"
+        android:hint="Enter Name - Surname"
+        android:drawableEnd="@android:drawable/ic_menu_more"
+        android:background="@drawable/edit_text_background"/>
+
+
+    <TextView
+        android:id="@+id/phone_id_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone ID:"
+        android:textSize="18sp"
+        android:layout_below="@id/name_surname_edittext"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/phone_id_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_id_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="10dp"
+        android:hint="Enter Phone ID"
+        android:drawableEnd="@android:drawable/ic_menu_more"
+        android:background="@drawable/edit_text_background"/>
+
+    <TextView
+        android:id="@+id/car_plate_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Plate:"
+        android:textSize="18sp"
+        android:layout_below="@id/phone_id_edittext"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/car_plate_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/car_plate_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="10dp"
+        android:hint="Enter Car Plate"
+        android:drawableEnd="@android:drawable/ic_menu_more"
+        android:background="@drawable/edit_text_background"/>
+
+    <TextView
+        android:id="@+id/car_model_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Model:"
+        android:textSize="18sp"
+        android:layout_below="@id/car_plate_edittext"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/car_model_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/car_model_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="10dp"
+        android:hint="Enter Car Model"
+        android:drawableEnd="@android:drawable/ic_menu_more"
+        android:background="@drawable/edit_text_background"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/car_model_edittext"
+        android:layout_centerHorizontal="true"
+        android:text="Save"
+        style="@style/CustomButtonStyle"/>
+
+    <Button
+        android:id="@+id/back_to_home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSave"
+        android:layout_centerHorizontal="true"
+        android:text="Back to Homepage"
+        style="@style/HomeButtonsStyle"/>
+
+</RelativeLayout>

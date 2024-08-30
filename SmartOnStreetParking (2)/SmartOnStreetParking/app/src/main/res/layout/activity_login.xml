@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E8F5E9">
+
+    <TextView
+        android:id="@+id/tvLoginHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/etLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_below="@+id/tvLoginHeader"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/etLoginEmail"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@+id/etLoginPassword"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background"
+        style="@style/CustomButtonStyle"/>
+
+    <TextView
+        android:id="@+id/tvNewToApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New to application?"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/tvSignUp"
+        android:layout_marginBottom="2dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up now"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:textColor="#A099EE"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E8F5E9">
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="25sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/btnStartParkingSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Parking Spot"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        style="@style/HomeButtonsStyle"/>
+
+    <Button
+        android:id="@+id/btnPaymentSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Settings"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"
+        style="@style/HomeButtonsStyle"/>
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        style="@style/HomeButtonsStyle"/>
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#A099EE"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"/>
+
+</LinearLayout>

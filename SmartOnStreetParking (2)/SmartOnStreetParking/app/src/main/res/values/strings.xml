@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Smart On Street Parking</string>
+    <string name="login">Login</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="rePassword">Re-Enter Password</string>
+    <string name="login_logo">Login Logo</string>
+    <string name="signup_name">Full Name</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="signup">Sign Up</string>
+    <string name="register">Please register to the application</string>
+    <string name="name_hint">Name</string>
+    <string name="mail_hint">Mail</string>
+    <string name="password_hint">Password</string>
+    <string name="plate_hint">Plate</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_signIn">Sign in</string>
+    <string name="welcome">Welcome to the App!</string>
+    <string name="spot_locator">Find an available spot</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="navigate_to_login">Go to Login</string>
+    <string name="scan_qr">Scan QR Code</string>
+
+
+</resources>

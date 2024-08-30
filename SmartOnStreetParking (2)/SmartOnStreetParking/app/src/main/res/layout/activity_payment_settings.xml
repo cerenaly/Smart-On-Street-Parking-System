@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentSettingsActivity"
+    android:background="#E8F5E9">
+
+    <RadioGroup
+        android:id="@+id/payment_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toTopOf="@id/back_to_home_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/pay_by_duration_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay by Duration Time"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/pay_by_flat_rate_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay by Flat Rate"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/back_to_home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Homepage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/payment_radio_group"
+        android:layout_marginTop="16dp"
+        style="@style/CustomButtonStyle"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
